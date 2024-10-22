@@ -8,7 +8,7 @@
             "name": "gdb - Windows+WSL/Ubuntu",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "program": "${fileDirname}/lab03",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -29,7 +29,7 @@
             "type": "lldb",
             "request": "launch",
             "name": "lldb - MacOS",
-            "program": "${workspaceFolder}/${fileBasenameNoExtension}",
+            "program": "${workspaceFolder}/lab03",
             "args": ["2", "2"],
             "cwd": "${workspaceFolder}",
             "preLaunchTask": "C/C++: gcc build active file"
